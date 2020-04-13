@@ -1,0 +1,75 @@
+.formControl {
+    margin-bottom: 16px;
+}
+
+.formControl > label {
+    display: block;
+    margin-bottom: 7px;
+    color: #6897BB;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.formControl input[type=text] {
+    background: #2b2b2b;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    border: 1px solid #2b2b2b;
+    color: #a9b7c6;
+    font-size: 14px;
+    line-height: 34px;
+    outline: none;
+}
+
+.formControl input[type=text]:focus {
+    border: 1px solid #6897BB;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+.formControl textarea {
+    background: #2b2b2b;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+    border: 1px solid #2b2b2b;
+    color: #a9b7c6;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+    height: 300px;
+}
+
+.formControl textarea:focus {
+    border: 1px solid #6897BB;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+.primaryButton {
+    padding: 0 12px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #ffc765;
+    outline: none;
+    border: 1px solid #2b2b2b;
+}
+
+.secondaryButton {
+    padding: 0 12px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    border: 1px solid #ffc765;
+    color: #a9b7c6;
+    outline: none;
+}
+
+.marginLeft {
+    margin-left: 12px;
+}
+
+.marginBottom {
+    margin-bottom: 12px;
+}
