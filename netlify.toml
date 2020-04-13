@@ -1,0 +1,6 @@
+[build]
+  base = "client/"
+  publish = "build/"
+
+  command = "sed 's@${API_SERVER_URL}@'${API_SERVER_URL}'@' _redirects.template > public/_redirects && npm run build"
+
